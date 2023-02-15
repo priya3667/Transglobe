@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="transglobe.css" />
+    <title>Trans globe</title>
+    <style>
+      .img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.abc{
+  position: absolute;
+  top: 50%;
+ 
+  text-align: center;   
+}
+    </style>
+  </head>
+  <body>
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top mb-3 ">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                 <img
+                src="https://transglobeedu.com/images/Logo.png"
+                height="60px"
+              /></a>              
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mt-4 pb-2  d-flex">
+                  <li class="nav-item">
+                    <a
+                    class="btn btn-link btn-floating btn-sm text-dark m-2 rounded-circle"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="white"
+                    style=" background-color: #0d3659; 
+                    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 18px;
+    margin-right: 21px;             
+                   "
+                    ><i class="fa-brands fa-facebook-f" style="color: white;"></i></i
+                  ></a>                  </li>
+                  <li class="nav-item">
+                    <a
+                    class="btn btn-link btn-floating btn-sm text-dark m-2 rounded-circle"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="white"
+                    style="font-weight: 400; font-size: 17px; background-color: #0d3659; 
+                    width: 36px;
+                    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 18px;
+    margin-right: 21px; 
+                   " 
+                    ><i class="fab fa-linkedin-in" style="color: white;"></i></a>  
+                                </li>
+                  <li class="nav-item ">
+                    <a
+                    class="btn btn-link btn-floating btn-sm text-dark m-2 rounded-circle"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    style=" background-color: #0d3659;  
+                    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 18px;
+    margin-right: 21px;             
+                    " 
+                    ><i class="fa-brands fa-instagram" style="color: white;"></i></i
+                  ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                    class="btn btn-link btn-floating btn-sm text-dark m-2 rounded-circle"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    style="font-weight: 400; font-size: 17px; background-color: #0d3659;  
+                    width: 36px;
+                    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 21px;
+                   " 
+                    ><i class="fa-brands fa-youtube " style="color: white;"></i></a>
+                </li>
+                <li class="nav-item"> <a
+                    class="btn btn-link btn-floating btn-sm text-dark m-2 rounded-circle"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    style=" background-color: #0d3659;  
+                    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 21px;             
+                   " 
+                    ><i class="fa-brands fa-whatsapp"style="color: white;"></i></a></li>
+                  <li class="nav-item"><a
+                    class="btn btn-link btn-floating btn-sm text-dark m-2 rounded-circle"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    style=" background-color: #0d3659; 
+                    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 18px;
+    margin-right: 21px;             
+                   " 
+                    >
+                    <i class="fa  fa-envelope circle-icon"style="color: white;"></i
+                  ></a></li>
+                  <li class="nav-item m-2 "><a href="#" class="btn btn-comman bordered rounded-pill p-2" style="font-weight: 400; font-size: 21px; ">
+                    <i class="fa fa-solid fa-phone" ></i>
+                  <span   style="font-weight: 400; font-size: 21px;
+                  width: 36px;
+                    height: 40px;
+                    margin: 2px;">  Call us</span>
+                  </a></li>
+                  <li class="nav-item .d-block ms-3 "><a href="#">
+                    <span
+                      style="font-size: 30px; cursor: pointer"
+                      onclick="openNav()"
+                      ><img 
+                        src="https://transglobeedu.com/images/menu-burger.png"
+                      />
+                    </span>
+                  </a></li>
+                </ul>
+              </div>
+                <div class="mobile-right-part" id="mobile">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <div id="side" style="height:100%; width:100%;">
+                    <div id="mySidenav" class="sidenav">
+                      <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                        >&times;</a
+                      >
+                                            <div class="container">
+                        <div class="accordion mx-3" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button
+                                class="accordion-button collapsed text-white"
+                                style="background-color: #224360;"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="false"
+                                aria-controls="collapseOne"
+                              >
+                                About trans globe
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseOne"
+                              class="accordion-collapse collapse show"
+                              aria-labelledby="headingOne"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body ">
+                                <h5 ><a href="#" class="text-white"> About us</a></h5>
+                                <h5><a href="#" class="text-white">career options with me</a></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <a
+                                href="#"
+                                class="accordion-button remove-after collapsed  text-white" style="background-color: #224360;"
+                                >Our services</a
+                              >
+                            </h2>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button
+                                class="accordion-button collapsed text-white "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
+                                style="background-color: #224360;"
+                              >
+                                Study Abroad
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseThree"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="headingThree"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
+                                <h5><a href="#" class="text-white"> Study in Australia</a></h5>
+                                <h5><a href="#"class="text-white"> Study in Australia</a></h5>
+                                <h5><a href="#"class="text-white"> Study in Australia</a></h5>
+                                <h5><a href="#"class="text-white"> Study in Australia</a></h5>
+                                <h5><a href="#"class="text-white"> Study in Australia</a></h5>
+                                <h5><a href="#"class="text-white"> Study in Australia</a></h5>
+                                <h5><a href="#"class="text-white"> Study in Australia</a></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button
+                                class="accordion-button collapsed text-white"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour"
+                                aria-expanded="false"
+                                aria-controls="collapseFour"
+                                style="background-color: #224360;"
+                              >
+                                Tests and Training
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseFour"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="headingFour"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
+                                <h5><a href="#"class="text-white"> IELTS</a></h5>
+                                <h5><a href="#"class="text-white"> TOELF</a></h5>
+                                <h5><a href="#"class="text-white"> GRE</a></h5>
+                                <h5><a href="#"class="text-white"> PTE</a></h5>
+                                <h5><a href="#"class="text-white"> GMAT</a></h5>
+                                <h5><a href="#"class="text-white"> SAT</a></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordian-item">
+                            <h2 class="accordion-header" id="headingFive">
+                              <a
+                                href="#"
+                                class="accordion-button remove-after collapsed text-white"
+                                style="background-color: #224360; "
+                                >Scolarships and Burseria</a
+                              >
+                            </h2>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                              <a
+                                href="#"
+                                class="accordion-button remove-after collapsed text-white"
+                                style="background-color: #224360;"
+                                >Events</a
+                              >
+                            </h2>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                              <a
+                                href="#"
+                                class="accordion-button remove-after collapsed text-white"
+                                style="background-color: #224360;"
+                                >Blogs</a
+                              >
+                            </h2>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEight">
+                              <a
+                                href="#"
+                                class="accordion-button remove-after collapsed text-white"
+                                style="background-color: #224360;"
+                                >Testinomials</a
+                              >
+                            </h2>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingNine">
+                              <a
+                                href="#"
+                                class="accordion-button remove-after collapsed text-white"
+                                style="background-color: #224360";
+                                >Contact us</a
+                              >
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              </nav>
+    </header> 
+      <div class="img">
+        <img src="https://transglobeedu.com/images/services.png" class="img-fluid"  style="width:100%;">       
+        <div class="centered fw-bold" style="font-size: 55px; ">Services</div>
+      </div>
+      <div class="container">
+        <div class="help pt-5 my-5" >
+          <div
+          class="col "
+          style="
+            border-left: 9px solid #ea1f27;
+            font-size: 28px;
+            padding-left: 10px;
+          "
+        >
+          <h2 class="fw-bold" style="color: #0d3659">How Trans Globe Can Help You ?</h2>
+        </div>
+        <p class="mt-3 mb-5" style="font-size: 1rem;color: #0d3659">
+          We are the sky for every student's dream to fly with our one-stop
+          quality services towards IELTS, PTE Coaching, Admissions, Visas, Post
+          Visa Services & Migration.
+        </p>
+        <div class="container overflow-hidden">
+          <div class="row gy-4" style="justify-content: space-around">
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body p-3"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+              <div class="p-3 text-center">
+                Education, and Career Counselling by proficient country counselors
+                for University Admissions / Applications and Student Visa.
+              </div>
+            </div>
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body p-3"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon2.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+    
+              <div class="p-3 text-center">
+                Coaching Studio for IELTS, PTE, TOEFL, GRE, GMAT and SAT. Learn with
+                our experienced mentors and certified trainers.
+              </div>
+            </div>
+    
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body p-3"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+    
+              <div class="p-3 text-center">
+                Get Expert Guidance, Smooth Admissions and Visa Procedure making
+                your Study Abroad Application hassle free and easy.
+              </div>
+            </div>
+    
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body p-3"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+    
+              <div class="p-3 text-center">
+                University Scholarship Guidance for Under Graduates & Post
+                Graduates.
+              </div>
+            </div>
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+    
+              <div class="p-3 text-center">
+                Pre-Departure Briefing and Alumni Networking.
+              </div>
+            </div>
+    
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+    
+              <div class="p-3 text-center">
+                Air Tickets, Forex, Insurance, and Accommodation Arrangements.
+              </div>
+            </div>
+    
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+    
+              <div class="p-3 text-center">
+                Rewarding Mentorship Program. Under our able guidance, you ought to
+                succeed.
+              </div>
+            </div>
+    
+            <div
+              class="col-md-2 border border-1 service-first shadow bg-body"
+              style="width: 17rem"
+            >
+              <img
+                src="https://transglobeedu.com/images/Icon.png"
+                width="85rem"
+                class="mx-auto d-block my-4"
+              />
+    
+              <div class="p-3 text-center">
+                Overseas Student Health Cover as per country and university
+                requirements.
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      <div class=" img my-5 pt-5 " >
+        <img src="https://transglobeedu.com/images/our-virtual.png" class="img-fluid" style="width: 100%;">
+        <div class="abc d-flex " style=" width: 100%; justify-content: space-around;"> 
+          <h3  >Take Our Virtual Counselling Session !</h3>
+          <a href="#" class="btn btn-white fs-5 " style="background: white ;
+          border-radius: 10px;
+          color: rgb(13, 54, 89);
+          font-weight: 500; 
+          
+          "> Learn More</a>
+        </div>
+      </div>
+      <div class="student service pt-4 " style="margin-top: 120px;">
+        <div class="col g-5 " style="border-left: 9px solid #ea1f27; font-size: 28px; padding-left: 10px;">
+          <h2  class="fw-bold"style="color: #0d3659;"> Student Services </h2>
+        </div>
+        <div class="row align-items-start my-4 pt-5 " >
+          <div class="col-md-6 col-sm-6">
+            <div class="card shadow  " >
+                <img class="card-img-top" src="https://transglobeedu.com/images/services1.png" >
+                <div class="card-body">
+                  <h4 class="card-title fw-bold mt-3" style="font-size: 20px;color: #0d3659;
+                  font-size: 22px;
+                 ">Career Counselling</h4>
+                  <p class="card-text pt-2 lh-lg mt-2 pb-3 fw-normal" style="color: #5e5d5d; font-size: 16px;">We support you in making proper career decisions and the right direction to 
+                    your journey abroad. Free and confidential counselling sessions are provided to students along
+                     with their parents for studying abroad and the destination countries opted for. One to one counselling
+                      for personal guidance to help choose courses that perfectly fit your career and personal goals. No two
+                       people are the same, so why should their consultations be.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="card shadow " >
+                <img class="card-img-top" src="https://transglobeedu.com/images/services2.png" >
+             <div class="card-body">
+                  <h5 class="card-title fw-bold mt-3" style="font-size: 20px;color: #0d3659;
+                  font-size: 22px;
+                  ">Test Preparations</h5>
+                  <p class="card-text lh-lg mt-3 pb-5 fw-normal"  style="color: #606060; font-size: 16px;">To pursue a course abroad, the students should have a good score of the basic language tests.One
+                     of the important steps while planning to study abroad is to appear for certain competitive examinations based on your
+                      study destination and university criterias.
+                     Trans Globe facilitates coaching services for the below listed exams: IELTS PTE SAT GMAT GRE TOEFL​</p>
+             </div>
+           </div>
+          </div>
+        </div>`
+        <div class="row align-items-start ">
+            <div class="col-md-6 col-sm-6">
+              <div class="card shadow  " >
+                <img class="card-img-top" src="https://transglobeedu.com/images/services3.png" >
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold mt-3" style="font-size: 20px;color: #0d3659;
+                    font-size: 22px;
+                    font-weight: 500;">University Admission Process</h5>
+                    <p class="card-text lh-lg pb-3 mt-2"style="color: #606060; font-size: 16px;">Discover the right course for the best career amongst different academic courses from the world class universities around the world. Get unbiased information on all the courses and steer in the right direction. From application process to followups to track movement, we give utmost attention. We also have the latest Scholarships and Bursary updates from the Universities and help you to shortlist courses with maximum benefits.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="card shadow " >
+                <img class="card-img-top" src="https://transglobeedu.com/images/services4.png" >
+
+               <div class="card-body">
+                    <h5 class="card-title fw-bold mt-3"style="font-size: 20px;color: #0d3659;
+                    font-size: 22px;
+                    font-weight: 500;">Funds And Visa Assistance</h5>
+                    <p class="card-text  lh-lg pb-5 mt-2"style="color: #606060; font-size: 16px;">Students opt for an Education Loan and we do have a good rapport with most of the trustworthy banks that ease off this process. The essential part of the entire procedure is the Financial aspects involved with the student’s Visa process. Our Visa Team is equipped with the most experienced advisers who are well versed with the documentation process and the visa requirements of a specific country.</p>
+               </div>
+             </div>
+            </div>
+          </div>`
+          <div class="row align-items-start my-5">
+            <div class="col-md-6 col-sm-6">
+              <div class="card shadow mb-5" >
+                <img class="card-img-top" src="https://transglobeedu.com/images/services5.png" >
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold mt-3"style="font-size: 20px;color: #0d3659;
+                    font-size: 22px;
+                    font-weight: 400;">Visa Applications</h5>
+                    <p class="card-text lh-lg pb-5 mt-2" style="color: #606060; font-size: 16px;">We also provide services for their dependent and or spouse visa applications which are thoroughly processed by us which makes it easier for students too.We consult you to know and understand yourself and the world of work in order to make career, educational and life decisions.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="card shadow mb-5" >
+                <img class="card-img-top" src="https://transglobeedu.com/images/services6.png" >
+               <div class="card-body">
+                    <h5 class="card-title fw-bold mt-3"style="font-size: 20px;color: #0d3659;
+                    font-size: 22px;
+                    font-weight: 400;">Pre & Post Departure Services</h5>
+                    <p class="card-text lh-lg pb-3 mt-2"style="color: #606060; font-size: 16px;">Pre Departure Briefings for all students and parents for commencing their studies abroad are essential and we ensure to do that. A rich orientation makes everything easy and smooth! The students get an option to exchange Cash, Traveler's Cheque, or Forex Cards at the most compatible rates. You can also look for temporary accommodations, travel arrangements too with us.</p>
+               </div>
+             </div>
+            </div>
+          </div>`
+      </div>  
+      </div>
+     <div class="Affiliation" style="background-color: rgb(13 54 89 / 5%);" >
+        <div class="container p-5" >
+      <div class="col g-5 " style="border-left: 9px solid #ea1f27; font-size: 28px; padding-left: 10px;">
+        <h2 style="color: #0d3659;">  Our Affiliations</h2>
+      </div>
+      <div class="container p-5" >
+        <div class="row g-5 ">
+          <div class="col">
+            <img src="https://transglobeedu.com/images/PTE%20acadamic.png" class="d-block w-100" >
+          </div>
+          <div  class="col">
+            <img src="https://transglobeedu.com/images/IELTS2.png" class="d-block w-100">
+          </div>
+          <div  class="col">
+            <img src="https://transglobeedu.com/images/EDU%20in%20australia.png" class="d-block w-100">
+          </div>
+          
+      
+      </div>
+    </div>
+        </div>
+        </div>
+      <div class="container">
+      <div class="touch pt-5 pb-2 mt-5 ">
+        <div class="col g-5" style="border-left: 9px solid #ea1f27; font-size: 28px; padding-left: 10px;">
+            <h2 class="fw-bold "style="color: #0d3659;">  Get in touch with us</h2>
+        </div>
+            <p class="mt-1"  style="color: #0d3659;">It's effective, it's beneficial and it's absolutely free. Take your virtual counselling session today!</p>
+            <div class="shadow-lg p-5 pt-2 mb-5 bg-body " style="border-radius: 1cm;">
+                <div class="row d-flex">
+                    <h5 style="color: #0d3659;" class="p-4 pe-3 fw-bold">BOOK A FREE CONSULTATION</h5>
+                    <div class="col-lg-6 col-md-6">
+                     <form class="pt-5">
+                        <div class="mb-3">
+                            <label for="exampleInputName1" class="form-label text-secondary"> Name </label>
+                            <input type=" Name" class="form-control form-control-lg" id="exampleInputName1" placeholder="Your Name" >
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label text-secondary ">Email </label>
+                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email" >
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputNumber1" class="form-label text-secondary">Phone Number</label>
+                            <input type="number" class="form-control form-control-lg" id="exampleInputNumber1" placeholder="phone number">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputCity1" class="form-label text-secondary"> City </label>
+                            <input type=" City" class="form-control form-control-lg" id="exampleInputCity1" placeholder="Rajkot" >
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputCity1" class="form-label text-secondary"> Desired country</label>
+                            <select class="form-select  form-select-lg">
+                                <option>Desired Country</option>
+                                <option>one</option>
+                                <option>two</option>
+                                <option>three</option>
+                              </select>
+                          </div>
+                          <div class="pt-4">
+                          <button type="submit" class="btn btn-normal btn-lg p-2 mx-auto">Apply</button>
+                        </div>
+                     </form>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                     <img src="https://transglobeedu.com/images/Consulatation.png" height="100%" width="100%">
+                    </div>
+                  </div>
+     </div>
+      
+<footer>
+  <hr class="mt-5" >
+  <div class="row pt-3 " style=" color:rgb(13, 54, 89) ;">
+    <div class="col-lg-2 col-md-2 col-6 ">
+      <h5 class="fw-bold">Quick Links</h5>
+       <p class="pt-3">
+         About us<br>
+         Career option with us<br>
+         Blogs<br>
+         Privacy Policy<br>
+         Terms & Condition<br>
+         Site map
+        </p>
+      
+    </div>
+    <div class="col-lg-2 col-md-2 col-6 ">
+     <h5 class="fw-bold">Tests And Trainings</h5>
+     <P class="pt-2"> IELTS<br>
+      TOELF<br>
+      GRE<br>
+      PTE<br>
+      GMAT<br>
+      SAT</P>
+    </div>
+    <div class="col-lg-2 col-md-2 col-6 ">
+      <h5 class="fw-bold">Study Abroad</h5> <p class="pt-4" >
+      Study in Australia<br> Study in Australia<br>
+    Study in Australia<br>
+   Study in Australia<br>
+ Study in Australia<br>
+Study in Australia<br>
+    Study in Australia</p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-6 ">
+      <h5 class="fw-bold">Assistance</h5>
+      <p class=" my-1 pt-4">
+        who are we<br>blog<br>work with us<br>investor relation<br>report fraud<br>contact us
+      </p>
+    </div>
+    <div class="col-lg-2 col-md-2 col-6 ">
+      <h5 class="pb-2 fw-bold">Test Center</h5>
+      <img src="https://transglobeedu.com/images/ets-toefl-vector-logo-small.png">
+      <img src="https://transglobeedu.com/images/pte-academic-official-test-centre.png" class="mt-2">
+    </div>
+  </div>
+  <div>
+    <hr>
+    <h4  class="p-3 pe-3 fw-bold" style=" color:rgb(13, 54, 89) ;">Office Location</h4>
+    <div class="row" style=" color:rgb(13, 54, 89) ;">
+      <div class="col-lg-4 col-md-4 col-6 mt-4">
+       <h5 class="fw-bold pb-2">Trans Globe - Rajkot Head Office</h5>
+       <p>Trans Globe House Opp. King's Land Towers, Amin Marg Rajkot, Gujarat 360005, India</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6 mt-4">
+        <h5 class="fw-bold pb-2">Trans Globe - Rajkot Corporate Office and Coaching Studio</h5>
+        <p>Opp. Vasant Kunj, Pushkardham Main Road, Off. Kalavad Road, Rajkot, Gujarat 360007</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6 mt-4">
+        <h5 class="fw-bold pb-2">Trans Globe - Rajkot Corporate Office and Coaching Studio</h5>
+        <p>Opp. Vasant Kunj, Pushkardham Main Road, Off. Kalavad Road, Rajkot, Gujarat 360007</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6 mt-4">
+        <h5 class="fw-bold pb-2">Trans Globe - Rajkot Corporate Office and Coaching Studio</h5>
+        <p>Opp. Vasant Kunj, Pushkardham Main Road, Off. Kalavad Road, Rajkot, Gujarat 360007</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6 mt-4">
+        <h5 class="fw-bold pb-2">Trans Globe - Rajkot Corporate Office and Coaching Studio</h5>
+        <p>Opp. Vasant Kunj, Pushkardham Main Road, Off. Kalavad Road, Rajkot, Gujarat 360007</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-6 mt-4">
+        <h5 class="fw-bold pb-2">Trans Globe - Rajkot Corporate Office and Coaching Studio</h5>
+        <p>Opp. Vasant Kunj, Pushkardham Main Road, Off. Kalavad Road, Rajkot, Gujarat 360007</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="copy-right" style=" color:rgb(13, 54, 89) ;">
+      <h6><span class="fw-bold">Copyright © 2022, </span> Trans Globe. All Rights Reserved.</h6>
+  </div>
+</footer>
+      </div>
+      </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "330px";
+        document.getElementById("side").style.backgroundColor = "rgba(13, 54, 98,0.5)";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>
